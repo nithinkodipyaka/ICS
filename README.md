@@ -45,6 +45,6 @@ The main script orchestrates the entire project. It loads known face encodings, 
 - Ensure that the file paths and dependencies are configured correctly based on your environment.
 
 ## Copyright
-© 2023 [Nithin Kodipyaka]
+© 2023 Nithin Kodipyaka
 
 

@@ -11,16 +11,16 @@ The Intelligent Campus Surveillance (ICS) project is designed to enhance campus 
 
 ## Project Structure
 
-### 1. `face_recognition_utils.py`
+### 1. `face_segmentation.ipynb`
 This file contains utility functions for face recognition, including the creation and comparison of face encodings.
 
-### 2. `cctv_processing.py`
+### 2. `cctv_processing`
 This script processes the live CCTV feed, performs face recognition, and saves images of recognized individuals to a directory.
 
-### 3. `roboflow_integration.py`
+### 3. `IDtag_detection.ipynb`
 This script integrates with the Roboflow platform to detect and identify ID cards or lanyards in the saved images.
 
-### 4. `main.py`
+### 4. `ICS.ipynb`
 The main script orchestrates the entire project. It loads known face encodings, processes live CCTV feed, saves recognized faces, and detects ID cards.
 
 ## Instructions for Use
@@ -29,10 +29,10 @@ The main script orchestrates the entire project. It loads known face encodings, 
 
 2. **Set Up Known People Images:**
 - Place individual images of known people in the `Facedata/People` directory. Each image should contain only one face.
-- Run the `processKnownPeopleImages` function in `main.py` to create and save face encodings for known people.
+- Run the `processKnownPeopleImages` function in `ICS.ipynb` to create and save face encodings for known people.
 
 3. **Run the Main Script:**
-- Execute the `main.py` script to start the face recognition and live CCTV feed processing.
+- Execute the `ICS.ipynb` script to start the face recognition and live CCTV feed processing.
 
 4. **ID Card Detection:**
 - The script also integrates with the Roboflow platform to detect and identify ID cards or lanyards in the saved images from the live CCTV feed.

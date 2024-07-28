@@ -44,6 +44,9 @@ The main script orchestrates the entire project. It loads known face encodings, 
 - The project is designed for educational purposes and may require customization for specific use cases.
 - Ensure that the file paths and dependencies are configured correctly based on your environment.
 
+## License
+This project is licensed under the terms of the LICENSE file.
+
 ## Copyright
 © 2023 Nithin Kodipyaka
 

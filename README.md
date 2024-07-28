@@ -47,7 +47,4 @@ The main script orchestrates the entire project. It loads known face encodings, 
 ## License
 This project is licensed under the terms of the LICENSE file.
 
-## Copyright
-© 2023 Nithin Kodipyaka
-
 
